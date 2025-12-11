@@ -1,0 +1,151 @@
+📅 Today’s Learning Summary
+
+Today, I started my web development journey by learning the fundamentals of HTML and CSS. I practiced creating a basic webpage, adding links, designing buttons, and applying simple CSS styles and hover effects.
+🟦 HTML Basics
+✅ What I Learned
+
+HTML is the structure of a webpage. Tags are used to define elements like headings, paragraphs, and links.
+
+🔹 Basic HTML Structure I wrote:
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My First HTML Page</title>
+</head>
+<body>
+    <h1>Welcome to My HTML Learning</h1>
+    <p>This is my first paragraph in HTML.</p>
+</body>
+</html>
+
+🟦 Anchor Tag (<a>)
+✅ What I Learned
+
+The anchor tag helps create clickable links.
+
+🔹 Normal Link:
+<a href="https://google.com">Go to Google</a>
+
+🔹 Open Link in New Tab:
+<a href="https://google.com" target="_blank">Open Google in New Tab</a>
+
+🔹 Anchor Tag as a Button:
+<a href="#" class="btn">Read More</a>
+
+🟩 CSS Basics
+✅ What I Learned
+
+CSS is used to style a webpage. There are three ways to use CSS.
+
+🔹 Inline CSS:
+<p style="color: green;">This is green text.</p>
+
+🔹 Internal CSS:
+<style>
+    p {
+        font-size: 18px;
+        color: blue;
+    }
+</style>
+
+🔹 External CSS:
+<link rel="stylesheet" href="style.css">
+
+🟦 Buttons in HTML & CSS
+🔹 Basic HTML Button:
+<button>Click Me</button>
+
+🔹 Styled Button with CSS:
+<style>
+button {
+    background-color: #4CAF50;
+    padding: 10px 20px;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+</style>
+
+🟦 Hover Effects
+🔹 Hover on Link:
+a:hover {
+    color: red;
+}
+
+🔹 Hover on Button:
+button:hover {
+    background-color: darkgreen;
+}
+
+🔹 Hover on Styled Anchor Button:
+.btn:hover {
+    background-color: #006f94;
+}
+
+🟦 Final Combined Example (All-in-One)
+
+Here is one simple page combining everything I learned today:
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Today's Learning</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        a {
+            color: blue;
+            text-decoration: none;
+        }
+
+        a:hover {
+            color: red;
+        }
+
+        .btn {
+            background-color: #008CBA;
+            color: white;
+            padding: 10px 15px;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+
+        .btn:hover {
+            background-color: #006f94;
+        }
+
+        button {
+            background-color: #4CAF50;
+            padding: 10px 20px;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: darkgreen;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Today I Learned — HTML & CSS Basics</h1>
+
+    <p>This page contains everything I learned today including HTML basics, anchor tags, CSS, buttons, and hover effects.</p>
+
+    <h2>Anchor Tag Example</h2>
+    <a href="https://google.com" target="_blank">Open Google</a>
+
+    <h2>Button Example</h2>
+    <button>Click Me</button>
+
+    <h2>Styled Anchor Button</h2>
+    <a href="#" class="btn">Read More</a>
+
+</body>
+</html>
+
