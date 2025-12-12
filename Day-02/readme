@@ -1,0 +1,70 @@
+📅 Today I Learned (Day 2)
+
+Today is Day 2 of my learning streak, and I explored HTML structure and some essential CSS properties including shadow, transition, padding, and text styling.
+
+✅ 1. HTML Structure
+
+I learned how every webpage begins with a basic HTML structure:
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learning HTML & CSS</title>
+</head>
+<body>
+    <h1>Hello World!</h1>
+    <p>This is my learning journey.</p>
+</body>
+</html>
+
+✅ 2. Padding
+
+Padding adds space inside an element but around its content.
+
+.box {
+    padding: 20px;
+    background-color: lightblue;
+}
+
+✅ 3. Text-Related Properties
+
+I practiced basic text styling:
+
+.text-demo {
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    color: #333;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+✅ 4. Shadows
+
+I learned both box-shadow and text-shadow.
+
+.card {
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+h1 {
+    text-shadow: 2px 2px 5px gray;
+}
+
+✅ 5. Transitions
+
+Transitions help make smooth hover animations.
+
+.button {
+    background-color: blue;
+    color: white;
+    padding: 10px 20px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.button:hover {
+    background-color: darkblue;
+    transform: scale(1.05);
+}
