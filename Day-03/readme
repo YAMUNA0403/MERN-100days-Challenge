@@ -1,0 +1,33 @@
+📦 <div> Element
+
+Today I learned about the <div> element, which is a block-level container used to group multiple HTML elements together. It helps structure web pages and is commonly used with CSS for styling and JavaScript for adding interactivity.
+
+✅ Example
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    .box {
+      border: 2px solid blue;
+      padding: 10px;
+      width: 200px;
+    }
+  </style>
+</head>
+<body>
+
+<div class="box">
+  <h3>Hello World</h3>
+  <p>This content is inside a div.</p>
+</div>
+
+</body>
+</html>
+
+📌 Explanation
+
+<div> groups the heading and paragraph
+
+CSS styles are applied using a class
+
+Helps organize layout and design
